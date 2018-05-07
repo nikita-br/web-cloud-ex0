@@ -1,3 +1,4 @@
+
 class Candidate{
 
     constructor(name) {
@@ -6,6 +7,7 @@ class Candidate{
     }
     vote(){
         this.votes++;
+
     }
     print(){
         console.log(this.name,this.votes);
